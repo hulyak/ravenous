@@ -1,6 +1,7 @@
 import React from 'react';
 import './SearchBar.css';
 
+// A SearchBar component to search for business
 const sortByOptions = {
 	'Best Match': 'best_match',
 	'Highest Rated': 'rating',

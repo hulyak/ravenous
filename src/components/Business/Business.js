@@ -1,6 +1,7 @@
 import React from 'react';
 import './Business.css';
 
+// A Business component that simulates a single business
 const business = {
 	imageSrc: 'https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg',
 	name: 'MarginOtto Pizzeria',
