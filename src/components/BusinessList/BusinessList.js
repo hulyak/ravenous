@@ -7,9 +7,11 @@ class BusinessList extends React.Component {
 	render() {
 		return (
 			<div className="BusinessList">
+				{/* build functionality for the component: iterate through the array and return Business components */}
 				{this.props.businesses.map((business) => {
+					// callback function returns Business component
 					return <Business business={business} />;
-				})}
+				})}{' '}
 			</div>
 		);
 	}

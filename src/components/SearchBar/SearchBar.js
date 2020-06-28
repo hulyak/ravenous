@@ -19,10 +19,12 @@ class SearchBar extends React.Component {
 		//Call the keys() method on the JavaScript Object library. Pass in sortByOptions as the argument.
 		//Now that you have access to the keys, you’ll iterate through them using the map() method.
 		return Object.keys(sortByOptions).map((sortByOption) => {
-			let sortByOptionValue = sortByOptions[sortByOption];
+			let sortByOptionValue = sortByOptions[sortByOption]; //get the value 
 			return <li key={sortByOptionValue}> {sortByOption} </li>;
 		});
 	}
+
+	// Render the <SearchBar /> Component
 	render() {
 		return (
 			<div className="SearchBar">
