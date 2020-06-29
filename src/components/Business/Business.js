@@ -5,7 +5,6 @@ import './Business.css';
 
 class Business extends React.Component {
 	render() {
-		//business object is a prop
 		const { business } = this.props;
 		return (
 			<div className="Business">

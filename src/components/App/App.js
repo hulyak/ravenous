@@ -24,8 +24,8 @@ class App extends React.Component {
 			<div className="App">
 				<h1>ravenous</h1> 
 				<SearchBar />
-				{/* add a businesses property to component */}
-				<BusinessList businesses={businesses} /> {' '}
+				{/* add a businesses prop to component */}
+				<BusinessList businesses={businesses} /> 
 			</div>
 		);
 	}
