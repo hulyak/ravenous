@@ -27,3 +27,21 @@ Ravenous will be composed of four different components interacting with each oth
 <SearchBar />
 <App /> (created by default with create-react-app)
 ```
+
+
+### How to solve CORS policy problem?
+
+fetch() don't function correctly due to CORS restrictions. [cors-anywhere](https://cors-anywhere.herokuapp.com/)
+
+We can bypass this restriction with an API called CORS Anywhere. CORS Anywhere will take requests sent to its API endpoint, make them for the requesting app with the proper CORS permissions, and then return the response back to the requesting app.
+
+Prepend the URL path passed to the first argument in fetch() with the following:
+
+`https://cors-anywhere.herokuapp.com/`
+
+
+### Yelp Authorization header
+
+When we make requests to the Yelp API, we have to present a form of identification for the browser. This is because the Yelp API wants to know that we are authorized to access the API.
+
+This identification is presented using our API key as a browser header.
