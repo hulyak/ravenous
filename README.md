@@ -1,4 +1,3 @@
-
 # Ravenous, a Yelp-like clone 
 
 Projects uses React's functionalities like ; 
@@ -20,6 +19,13 @@ Projects uses React's functionalities like ;
 npm install
 npm start 
 ```
+
+### Fetch Polyfill Usage for Old Browsers
+
+fetch() is a browser API, older browsers may not support it. To increase the accessibility of Ravenous to a wider audience of users, we’ll need to add a fetch() polyfill to support older browsers. 
+
+run `npm install whatwg-fetch --save` to install the whatwg-fetch polyfill and add it to your package.json file.
+
 
 ### How to solve CORS policy problem?
 
