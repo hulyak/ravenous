@@ -7,11 +7,13 @@ import './SearchBar.css';
 class SearchBar extends React.Component {
 	constructor(props){
 		super(props);
+
 		this.state = {
 			term : "",
 			location : "",
 			sortBy : "best_match"
 		};  //initial state
+		
 		this.sortByOptions = {
 			'Best Match': 'best_match',
 			'Highest Rated': 'rating',
@@ -89,3 +91,5 @@ class SearchBar extends React.Component {
 }
 
 export default SearchBar;
+// Added visual feedback for the sorting options at the top of the search bar
+// Set the state of sorting options and input elements
