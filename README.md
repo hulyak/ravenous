@@ -43,3 +43,18 @@ Prepend the URL path passed to the first argument in fetch() with the following:
 When we make requests to the Yelp API, we have to present a form of identification for the browser. This is because the Yelp API wants to know that we are authorized to access the API.
 
 This identification is presented using our API key as a browser header.
+
+
+### Improvements to App
+
+- Make addresses clickable and have them open the address in Google Maps in a new tab
+  
+- Make images clickable and have them open the business’ website in a new tab
+  
+- Clicking on a different sorting option automatically requires the Yelp API, rather than having to manually click “Let’s Go” again
+
+- Implement a type of sort (for example, by entering a distance or radius from a central location)
+
+- Allow you to search by pressing “Enter” (or “Return”) on your keyboard, as opposed to manually clicking
+Add autocompletion of addresses to the “Location” input
+
