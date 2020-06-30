@@ -10,9 +10,9 @@ Projects uses React's functionalities like ;
 
 ## Info about app
 
-As a user, I should be able to search for restaurants
-As a user, I should be able to view a list of restaurants returned by the Yelp API
-As a user, I should be able to sort through restaurants using a filter
+- As a user, I should be able to search for restaurants,
+- should be able to view a list of restaurants returned by the Yelp API
+- should be able to sort through restaurants using a filter
 
 ## Set-up
 
