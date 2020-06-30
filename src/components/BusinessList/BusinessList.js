@@ -10,8 +10,8 @@ class BusinessList extends React.Component {
 				{/* build functionality for the component: iterate through the array and return Business components */}
 				{this.props.businesses.map((business) => {
 					// callback function returns Business component
-					return <Business business={business} />;
-				})}{' '}
+					return <Business key={business.id} business={business} />;
+				})}
 			</div>
 		);
 	}
