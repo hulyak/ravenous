@@ -16,9 +16,10 @@ Projects uses React's functionalities like ;
 
 ## Set-up
 
-`npm install`
-`npm start` to run the app
-
+```
+npm install
+npm start 
+```
 
 ### How to solve CORS policy problem?
 
