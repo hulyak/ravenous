@@ -10,11 +10,11 @@ const Yelp = {
           Authorization: `Bearer ${apiKey}`,
         },
       }
-    ) //fetch /businesses endpoint
+    ) // fetch /businesses endpoint
       .then((response) => response.json())
       .then((jsonResponse) => {
         if (jsonResponse.businesses) {
-          //jsonResponse has a businesses key, valid business
+          // jsonResponse has a businesses key, valid business
           return jsonResponse.businesses.map((business) => ({
             id: business.id,
             imageSrc: business.image_url,
